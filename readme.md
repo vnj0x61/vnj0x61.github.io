@@ -1,33 +1,45 @@
 #### Python venv
 
+
 ```
 sudo apt install python3.10-venv
-
 pip install virtualenv
+```
 
-# create venv
+##### create venv
+```
 python3 -m venv pythonenv_pelican
-
-# activate venv
+```
+##### activate venv
+```
 source pythonenv_pelican/bin/activate
-
-# check if activated
+```
+##### check if activated
+```
 pip list
+```
 
-# install packages
+##### install packages
+```
 pip install yourpackage
+```
 
-# create requirements.txt
+##### create requirements.txt
+```
 pip freeze > requirements.txt
+```
 
-# install from requirements.txt
+##### install from requirements.txt
+```
 pip install -r requirements.txt
+```
 
-# deactivate venv
-deactivate
-
+##### deactivate venv
 
 ```
+deactivate
+```
+
 
 #### Build
 
