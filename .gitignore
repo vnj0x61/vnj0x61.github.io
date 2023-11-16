@@ -43,3 +43,4 @@ Thumbs.db
 draft/*
 __pycache__
 pythonenv_pelican
+tasks.py
