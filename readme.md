@@ -54,6 +54,26 @@ pelican content
 pelican -l
 ```
 
+#### change branch
+
+```bash
+git checkout main
+```
+
+#### add your ssh-key
+
+```bash
+ssh-add /path/to/key
+```
+
+#### sign your commit
+
+```bash
+git commit -S -m "COMMIT MESSAGE"
+```
+
+
+
 ---
 
 #### GitHub Pages Pelican Build Action
