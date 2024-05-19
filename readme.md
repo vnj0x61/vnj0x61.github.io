@@ -1,5 +1,40 @@
-#### Python venv
+### Create new blog post
+- create new file under /content file.md
+- fill infos:
+```
+Title: Title
+Date: 2023-11-04 15:00
+Category: writeups
+```
+- write
+- commit
 
+If the actions are not working properly, go to
+actions -> pages-build-deployment -> pages build and deployment -> Re-run all jobs
+
+### useful commands 
+
+#### change branch
+
+```bash
+git checkout main
+```
+
+#### add your ssh-key
+
+```bash
+ssh-add /path/to/key
+```
+
+#### sign your commit
+
+```bash
+git commit -S -m "COMMIT MESSAGE"
+```
+
+### inital setup
+
+#### Python venv
 
 ```
 sudo apt install python3.10-venv
