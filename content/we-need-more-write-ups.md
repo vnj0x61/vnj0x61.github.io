@@ -21,9 +21,5 @@ What woke me up was a failed exam attempt and a very well-written roadmap from S
 
 https://github.com/msrkp/hacker-roadmap
 
-
-
----
-
 So in the next few weeks I will create write-ups on topics from the PG-Practice Labs which I will be doing daily as well as write-ups on challenges from picoCTF. 
 
